@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>gpu</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>gpu</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">main</a></li>
+            <li><a href="phones.html"> phones</a></li>
+            <li><a href="earbuds.html">earbuds</a></li>
+            <li><a href="laptops.html">labtops</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <div class="container" id="products">
+
+    
+    <div class="product">
+        <img src="rtx3050.jpg" alt="صورة المنتج "width="300" height="300">
+        <h3>RTX 2050</h3>
+        <p>strong 4 GB. GDDR6. 128 bit. 14 Gbps memory speed. 2560 CUDA cores. DLSS 2.0 support. Ray tracing support.</p>
+        <p>السعر: 9000 بلبل</p>
+        <button onclick="addToCart('RTX 2050', 9000)">أضف إلى السلة</button>
+        
+       </div>
+    <div class="product">
+        <img src="rtx3050.jpg" alt="صورة المنتج "width="300" height="300">
+        <h3>RTX 2060</h3>
+        <p>strong 8 GB. GDDR6. 128 bit. 14 Gbps memory speed. 2560 CUDA cores. DLSS 2.0 support. Ray tracing support.</p>
+        <p>السعر: 12600 بلبل</p>
+        <button onclick="addToCart('RTX 2060', 12600)">أضف إلى السلة</button>
+        
+       </div>
+    <div class="product">
+        <img src="rtx3050.jpg" alt="صورة المنتج "width="300" height="300">
+        <h3>RTX 3050</h3>
+        <p>strong 8 GB. GDDR6. 128 bit. 14 Gbps memory speed. 2560 CUDA cores. DLSS 2.0 support. Ray tracing support.</p>
+        <p>السعر: 15000 بلبل</p>
+        <button onclick="addToCart('RTX 3050', 15000)">أضف إلى السلة</button>
+        
+       </div>
+    
+      <div class="product">
+        <img src="rtx4060.jpg" alt="صورة المنتج "width="300" height="300">
+        <h3>RTX 4060</h3>
+        <p>strong 8 GB. GDDR6. 128 bit. 18 Gbps memory speed. 3072 CUDA cores. DLSS 3 support. Ray tracing support.</p>
+        <p>السعر: 20000 بلبل</p>
+        <button onclick="addToCart('RTX 4060', 20000)">أضف إلى السلة</button>
+        </div>
+    
+        <div class="product">
+            <img src="rtx4070.jpg" alt="صورة المنتج " width="300" height="300">
+            <h3>RTX 4070</h3>
+            <p>strong 12 GB. GDDR6. 192 bit. 21 Gbps memory speed. 5888 CUDA cores. DLSS 3 support. Ray tracing support.</p>
+            <p>السعر: 30000 بلبل</p>
+            <button onclick="addToCart('RTX 4070', 30000)">أضف إلى السلة</button>
+            </div>
+        
+            <div class="product">
+                <img src="rtx 4080.jpg" alt="صورة المنتج "width="300" height="300">
+                <h3>RTX 4080</h3>
+                <p>strong 16 GB. GDDR6X. 256 bit. 22 Gbps memory speed. 9728 CUDA cores. DLSS 3 support. Ray tracing support.</p>
+                <p>السعر: 40000 بلبل</p>
+                <button onclick="addToCart('RTX 4080', 40000)">أضف إلى السلة</button>
+                </div>
+    
+   
+  </div>
+
+  <div class="cart" id="cart">
+    <h2>سلة الشراء</h2>
+    <ul id="cart-items"></ul>
+    <strong id="total">المجموع: 0 بلبل</strong>
+  </div>
+</body>
+</html>

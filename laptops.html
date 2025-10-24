@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>labtops</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>laptops</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">main</a></li>
+            <li><a href="gpus.html">gpu </a></li>
+            <li><a href="earbuds.html">earbuds</a></li>
+            <li><a href="phones.html">phones</a></li>
+        </ul>
+    </nav>
+  </header>
+
+  <div class="container" id="products">
+
+    <div class="product">
+        <img src="airm1.jpg" alt="صورة المنتج ">
+        <h3>macbook air m1</h3>
+        <p>strong 256 GB. 8 GB RAM. M1 chip. 13.3 inch Retina display. 18 hours battery life. macOS Monterey.</p>
+        <p>السعر: 36000 بلبل</p>
+        <button onclick="addToCart('macbook air m1', 36000)">أضف إلى السلة</button>
+        </div>
+    
+        <div class="product">
+            <img src="asustufa15.jpg" alt="صورة المنتج ">
+            <h3>Asus TUF Gaming A15</h3>
+            <p>strong 512 GB. 16 GB RAM. Ryzen 7 5800H chip. 15.6 inch FHD display. NVIDIA GeForce RTX 3060 graphics. Windows 10.</p>
+            <p>السعر: 50000 بلبل</p>
+            <button onclick="addToCart('Asus TUF Gaming A15', 50000)">أضف إلى السلة</button>
+            </div>
+
+            <div class="product">
+                <img src="victs15.jpg" alt="صورة المنتج ">
+                <h3>Victus 15</h3>
+                <p>strong 512 GB. 16 GB RAM. Ryzen 5 5600H chip. 15.6 inch FHD display. NVIDIA GeForce GTX 1650 graphics. Windows 10.</p>
+                <p>السعر: 30000 بلبل</p>
+                <button onclick="addToCart('Victus 15', 30000)">أضف إلى السلة</button>
+                </div>
+
+        
+                
+                <div class="product">
+                    <img src="loq_.jpg" alt="صورة المنتج ">
+                    <h3>lenovo loq</h3>
+                    <p>strong 512 GB. 16 GB RAM. Ryzen 5 7535HS chip. 15.6 inch FHD display. NVIDIA GeForce RTX 4050 graphics. Windows 11.</p>
+                    <p>السعر: 40000 بلبل</p>
+     <button onclick="addToCart('lenovo loq', 40000)">أضف إلى السلة</button>
+                    </div>
+
+   
+  </div>
+
+  <div class="cart" id="cart">
+    <h2>سلة الشراء</h2>
+    <ul id="cart-items"></ul>
+    <strong id="total">المجموع: 0 بلبل</strong>
+  </div>
+</body>
+</html>
